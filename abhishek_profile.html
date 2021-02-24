@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>Abhishek Srivastava (IoT Architect at Bosch)</h1>
+  
+  <p>My job as Senior leader in Technical space at Bosch allows me to focus on technical challenges and chalk out strategies to overcome those . <br> My job responsibilities also involves talk to various clients/their technical team and provide technical solution for their requirement. <br>I also help pre-sales team in proposals. My job requires continuous learning of new technologies to derive architectures which demonstrate state-of-the-art solutions. I believe in Teamwork and often volunteer to mentor colleagues and prepare them for next levels. As part of my Job I also work with fresh college graduates, help them in internship and preparing them for smooth transition from college into professional world. I am AWS Certified Architect but have deep knowledge in Azure and GCP. I have expertise in designing and orchestrating cloud based highly available, secure, and scalable IoT applications. I have expertize in designing cloud native microservices. My current work is in agriculture domain where I am involved in rolling out a platform on subscription based marketplace model for common agriculture features. I work in agile environment and have very good knowledge in agile development practices like continuous integrations, sprint, and Kanban. <br><br>Organizing and participating in various workshop is part of my job role but Hackathons is what I like most</p>
+</div>
+
+<h2 style="text-align:center"></h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+	<img src="./img/Abhishek.JPG" alt="abhishek" style="width:100%">
+      <div class="container">
+        <h2>Abhishek Srivastava</h2>
+        <p class="title">Technical Architect at RBEI</p>
+        <p>Technical Architect | AWS | IoT | Cloud Solutions | Distributed Systems</p>
+        <p>ab.shrv@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="container">
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
